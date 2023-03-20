@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="QIn7adCy6ix9]4It9F-Y">sprite</variable></variables><block type="pxt-on-start" id="]gJiHO1@OR6{CA2s~2!S" x="0" y="0"></block><block type="device_forever" id="F+DeC?!ug6U2k3wqI.nz" x="301" y="4"></block><block type="device_build_image" id="i3;1[MYhj+VLglHm8dz5" disabled="true" x="441" y="608"><field name="LEDS">`
+        # . # . . 
+        . . # . . 
+        # . # . . 
+        # . # . . 
+        # . # # #
+        `</field></block><block type="device_build_big_image" id="l(-95t+^|SUIy|wo{Z-M" disabled="true" x="371" y="623"><field name="LEDS">`
+        # . # . . . . . . . 
+        . . # . . # # . . . 
+        # . # . # . . # . . 
+        # . # . # . . # . . 
+        # . # . . # # . . .
+        `</field></block><block type="device_led_toggle" id="W0/q8sG|e%vwuG1ZU!iL" disabled="true" x="585" y="615"><value name="x"><shadow type="math_number_minmax" id="*4Q.POFO!Cs`uVWxSXmS" disabled="true"><mutation min="0" max="4" label="X" precision="1"></mutation><field name="SLIDER">4</field></shadow></value><value name="y"><shadow type="math_number_minmax" id="@oLan5ThfD_g$k*E-dFA" disabled="true"><mutation min="0" max="4" label="Y" precision="1"></mutation><field name="SLIDER">4</field></shadow></value></block><block type="game_move_sprite" id="/P4CBoh.+v@Sd%Lf)nSU" disabled="true" x="271" y="643"><value name="sprite"><block type="variables_get" id="h_d!lf]tyU%*ev0XDvRz" disabled="true"><field name="VAR" id="QIn7adCy6ix9]4It9F-Y">sprite</field></block></value><value name="leds"><shadow type="math_number" id="ogXp7IC!}PclGm*=HQ3k" disabled="true"><field name="NUM">1</field></shadow></value></block><block type="playMelody" id="Og1qk!BUw0ZE85yLtMsF" disabled="true" x="328" y="690"><value name="melody"><shadow type="melody_editor" id="wuM+F[Ch%pyYQ67b;mMA" disabled="true"><field name="melody">"- - - - - - - - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="cT.(R9}q4X7tP.ycjo;$" disabled="true"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="basic_show_icon" id="^qt$dJlqiX}X_`m49mJ9" disabled="true"><field name="i">IconNames.Heart</field></block></next></block></xml>
